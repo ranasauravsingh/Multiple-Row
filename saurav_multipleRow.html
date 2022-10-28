@@ -1,0 +1,47 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+	href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+	rel="stylesheet"
+/>
+<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+/>
+
+<link rel="stylesheet" href="./css/saurav_multipleRow.css" />
+
+<!-------------------------------Census Form ---------------------------->
+<div class="container">
+	<table border="1" id="censusForm">
+		<tr>
+			<th>Area Name</th>
+			<th>House Details</th>
+			<th>Action</th>
+		</tr>
+	</table>
+	<input type="button" onclick="addArea()" value="Add" />
+	<input id="insertBtn" type="button" onclick="insert()" value="Submit" />
+</div>
+
+<!-------------------------------Census Table ---------------------------->
+<div class="container">
+	<label for="censusTable">Census List</label>
+	<table id="censusTable" border="1"></table>
+</div>
+
+<!-------------------------------Census Tree View ---------------------------->
+<div class="container">
+	<label for="treeTable">Tree View</label>
+	<div class="treeContainer" id="treeTable">
+		<ul id="treeView"></ul>
+	</div>
+</div>
+
+<script
+	src="https://code.jquery.com/jquery-3.6.1.min.js"
+	integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+	crossorigin="anonymous"
+></script>
+
+<script src="./js/saurav_multipleRow.js"></script>

@@ -1,0 +1,65 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+}
+
+#censusTable {
+	margin: 10px 0px;
+	text-align: center;
+	display: none;
+}
+th {
+	text-align: center;
+}
+
+td {
+	text-align: left;
+}
+label {
+	margin-top: 50px;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 0px 10px;
+	display: none;
+}
+
+input[type="button"] {
+	margin: 0px 5px;
+}
+
+ul {
+	list-style: none;
+}
+
+.caret {
+	cursor: pointer;
+	user-select: none;
+}
+
+li ul {
+	margin-left: 40px;
+}
+i {
+	color: black;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.nested {
+	display: none;
+}
+.active {
+	display: block;
+}
+
+.caret-down {
+	transform: rotate(90deg);
+}
+
+.container {
+	width: 1270px;
+	margin: 10px auto;
+}
